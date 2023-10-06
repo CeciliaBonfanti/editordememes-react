@@ -1,5 +1,6 @@
 import './App.css';
-import  Imgmemes  from './componentes/Imgmemes';
+import Imgmemes from './componentes/Imgmemes';
+
 
 function App() {
   return (

@@ -6,6 +6,7 @@
 
 .titulo, .meme-editor, .container, .figure-img, .grid-container, .grid-container img, .contenedor-meme, .texto-meme, .texto-meme2, .input-texto, .color, .input-color, .position, .position-input {
   margin: 0;
+  padding: 0;
 }
 
 .titulo {
@@ -17,11 +18,19 @@
   color: white;
 }
 
-.container {
+.contenedor {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin: 0 auto;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 30px;
+  margin: 0 10%;
+}
+
+.texto{
+  margin-bottom: 30px;
+}
+
+.texto h3{
+  margin-bottom: 20px;
 }
 
 .figure-img, .grid-container img {
@@ -30,6 +39,20 @@
 
 .figure-img {
   height: auto;
+}
+
+.edit-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color-position{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .grid-container{
@@ -47,10 +70,15 @@
   cursor: pointer;
 }
 
+.tamaño-letra{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
 .contenedor-meme {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   overflow: hidden;
 }
@@ -63,22 +91,10 @@
   position: absolute;
   word-wrap: break-word;
   text-align: left;
-  font-size: 40px;
   font-weight: bold; 
-  max-width: 90%;
-  max-height: 90%;
-}
-
-.texto-meme {
- top:10%;
- left:10%;
- right:10%;
-}
-
-.texto-meme2{
- top:30%;
- left:10%;
- right:10%;
+  left:5%;
+  right:5%;
+  top:5%;
 }
 
 .input-texto, .color, .input-color{
@@ -89,10 +105,22 @@
  gap:10px;
 }
 
+.edit-container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.tamaño-letra{
+  margin-bottom: 30px;
+}
+
 .input-color{
- border-radius:15px;
  color:#ffc0cb;
- padding:5%;
+ padding:10px;
+ 
 }
 
 .color h3{
@@ -102,12 +130,11 @@
 .position{
  display:flex;
  justify-content: center;
+
 }
 
 .position-input{
  display:flex;
- background-color: white;
- color:black;
  flex-direction:column;
  border-radius:15px;
  padding:10px;

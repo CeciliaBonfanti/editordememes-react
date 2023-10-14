@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/editordememes-react/static/css/main.0afbaff3.css",
+    "main.css": "/editordememes-react/static/css/main.e20f738f.css",
     "main.js": "/editordememes-react/static/js/main.fba48042.js",
     "index.html": "/editordememes-react/index.html",
-    "main.0afbaff3.css.map": "/editordememes-react/static/css/main.0afbaff3.css.map",
+    "main.e20f738f.css.map": "/editordememes-react/static/css/main.e20f738f.css.map",
     "main.fba48042.js.map": "/editordememes-react/static/js/main.fba48042.js.map"
   },
   "entrypoints": [
-    "static/css/main.0afbaff3.css",
+    "static/css/main.e20f738f.css",
     "static/js/main.fba48042.js"
   ]
 }
